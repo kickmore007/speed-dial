@@ -1,0 +1,74 @@
+* {
+    width: 100%;
+
+}
+
+html {
+    align-content: center;
+
+}
+
+
+.class {
+    text-align: center;
+}
+
+
+
+.text{
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Cousine', monospace;
+    font-size: 30px;
+    height: 35px;
+
+}
+
+
+
+
+.images {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    transform: translateY(130%);
+
+}
+
+.class {
+    margin: auto;
+}
+
+a {
+    box-shadow: 10px, 10px;
+    opacity: 0.4;
+    size: 100%;
+    animation-timing-function: linear;
+    transition: 0.5s ease;
+    margin: 0 auto;
+    filter: brightness(90%);
+}
+a:hover{
+    opacity: 1;
+    size: 120%;
+    transform: scale(1.2);
+    filter: brightness(100%);
+}
+
+img {
+    size: 100%;
+    animation-timing-function: linear;
+
+}
+
+img:hover {
+    size: 120%;
+}
